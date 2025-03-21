@@ -36,7 +36,7 @@ body {
 }
 
 .container {
-    background: url(../images/background-spin.png) no-repeat center/cover;
+    background: url('../images/background-spin.png') no-repeat center/cover;
     width: 56.25vh;
     height: 100vh;
     display: flex;

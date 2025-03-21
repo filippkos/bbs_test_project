@@ -14,7 +14,7 @@ html {
 
 .start-screen {
     display: flex;
-    background: url(../images/background-splash.jpeg) no-repeat center center/cover;
+    background: url('../images/background-splash.jpeg') no-repeat center center/cover;
     position: relative;
     width: 100vw;
     height: 100vh;
@@ -52,7 +52,7 @@ html {
     transform: translate(-50%, -50%);
     width: 45vh;
     height: 20vh;
-    background: url(../images/progress-bar.png) no-repeat center center/cover;
+    background: url('../images/progress-bar.png') no-repeat center center/cover;
     display: flex;
     align-items: center;
     z-index: 2;
@@ -65,7 +65,7 @@ html {
     transform: translate(-50%, -50%);
     width: 45vh;
     height: 20vh;
-    background: url(../images/progress-bar-aquamarine.png) no-repeat center center/cover;
+    background: url('../images/progress-bar-aquamarine.png') no-repeat center center/cover;
     display: flex;
     align-items: center;
     z-index: 3;
