@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../home/home.css" rel="stylesheet">
+    <title>Slot Machine</title>
+    <script src="../home/home.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="intro-modal">
+            <iframe src="../intro-modal/intro-modal.html" id="modalIframe" height="100%" width="100%" frameborder="0"></iframe>
+        </div>
+        <div class="outro-modal">
+            <iframe src="../outro-modal/outro-modal.html" id="outro-modalIframe" height="100%" width="100%" frameborder="0"></iframe>
+        </div>
+        <div class="logo-fisher-container">
+            <img src="../images/logo.png" class="logo">
+            <img src="../images/fisher-faded.png" class="fisher">
+        </div>
+
+        <div class="machine-container">
+            <div class="slot-container">
+                <div class="slots">
+                    <div class="reel" id="reel1">
+                      <div class="inner-reel" id="inner-reel1"></div>
+                    </div>
+                    <div class="reel" id="reel2">
+                       <div class="inner-reel" id="inner-reel2"></div>
+                    </div>
+                    <div class="reel" id="reel3">
+                        <div class="inner-reel" id="inner-reel3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="spin-container">
+            <div class="free-spins">
+               <span class="free-spins-label" id="freeSpins">FREE SPINS: 3</span>
+            </div>
+            <button class="spin-button" id="spin">SPIN</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
