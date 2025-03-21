@@ -44,6 +44,8 @@
 
 .modal-description {
     margin: 10%;
+    margin-left: 0%;
+    margin-right: 0%;
     font-size: 11vh;
     font-weight: bold;
     line-height: 0.72;
